@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Testing TypeScript Enum changes Example
+
+**Problem:**
+Sometimes you might depend on a remote/auto-generated enum types, and you may want to catch all new changes to those enums on your CI/locally.
+
+**Solution:**
+Enums in the end are just plain JS objects, so we can create a wrapper React component that renders that JS object and snapshot test it.
+
+**See example:**
+- [src/SnapshotObject/index.tsx](src/SnapshotObject/index.tsx)
+- [src/SnapshotObject/index.test.tsx](src/SnapshotObject/index.test.tsx)
+- [src/SnapshotObject/\__snapshots\__/index.test.tsx.snap](src/SnapshotObject/__snapshots__/index.test.tsx.snap)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

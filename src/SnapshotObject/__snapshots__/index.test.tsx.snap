@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test enums ExampleEnum2 1`] = `
+<DocumentFragment>
+  ["Four","Five","Six"]
+</DocumentFragment>
+`;
+
+exports[`test enums SnapshotObject 1`] = `
+<DocumentFragment>
+  ["0","1","2","One","Two","Three"]
+</DocumentFragment>
+`;
